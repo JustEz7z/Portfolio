@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 550px;
+    background-image: url('Images/headerImg.jpg');
+    background-size: cover;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    overflow: auto;
+}
+.homePage {
+    height: 38px;
+    max-width: 130px;
+    color: white;
+    cursor: default;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.openMenu {
+    height: 80px;
+    width: 80px;
+    float: right;
+    color: white;
+}
+.openMenu i {
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+p{
+       font-family: 'Lato', sans-serif;
+}
+.tap {
+    height: auto;
+    width: auto;
+    color: white;
+    text-decoration: none;
+    transform: bold;
+    font-weight: bold;
+}
+.tap_menu {
+    font-size: 25px;
+    cursor: pointer;
+}
+.tap_menu_ExiteBlock{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.685);
+    z-index: 3;
+    display: none;
+}
+.tap_menu_block {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 660px;
+    width: 0;
+    background-color: white;
+    transition: 0.7s;
+    z-index: 4;
+}
+.tap_menu_block ul {
+    list-style-type: none;
+}
+.tap_menu_block p {
+    color: black;
+    text-transform: uppercase;
+    line-height: 50px;
+    position: absolute;
+    left: 45px;
+}
+.tap_menu_block li{
+    height: 50px;
+}
+.tap_menu_block a{
+    height: 50px;
+    width: auto;
+    text-decoration: none;
+    transform: bold;
+    font-weight: bold;
+    display: block;
+}
+.tap_menu_block li:hover{
+    background-color: gray;
+}
+.tap_menu_block li:hover i {
+    color: white;
+}
+.tap_menu_block li:hover p {
+    color: white;
+}
+.tap_menu_block i {
+    color: black;
+    float: left;
+    line-height: 50px;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+}
+.boxTxt {
+    height: 60%;
+    width: 50%;
+    margin: 60px 0 0 50px;
+    color: white;
+}
+.txtHiTech {
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+
+}
+.butExplore {
+    height: 55px;
+    width: 140px;
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid white;
+    margin-top: 30px;   
+}
+.innerTxtExp {
+    text-align: center;
+    line-height: 53px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+.someInf {
+    max-width: 100%;
+    height: 400px;
+    background: white;
+    overflow: auto;
+}
+.innerSomeImf {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 0 0 0 10px;
+    
+}
+.fixCenter {
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.iSomeInfText{
+    text-align: center;
+    margin: 27px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.iSomeInfText2{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.iSomeInfText3{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.iSomeInfImg {
+    width: 300px;
+    height: 150px;
+    margin-top: 18px;
+}
+.iSomeInfImg2 {
+    width: 300px;
+    height: 150px;
+}
+.iSomeInfImg3 {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+}
+.whyChUsBox {
+    max-width: 100%;
+    height: 450px;
+    background: rgb(250, 250, 250);
+}
+.whyChUsBoxCenter {
+    max-width: 1149px;
+    height: 450px;
+    margin: 0 auto;
+    clear: both;
+}
+.whyChUsBoxInner1 {
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+.whyChUsBoxInner1H1 {
+    color: gray;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.whyChUsBoxInner1Parag {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.whyChUsBoxInner1Margin {
+    width: 600px;
+    height: 350px;
+    margin-top: 100px;
+}
+.whyChUsBoxInner1butExp {
+    height: 55px;
+    width: 140px;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(78, 78, 78);
+    margin-top: 30px;   
+}
+.whyChUsBoxInner2 {
+    width: 400px;
+    height: 450px;
+    float: right;
+}
+.whyChUsBoxInner2Margin {
+    width: 400px;
+    height: 390px;
+    margin-top: 60px;
+}
+.whyChUsBoxInner2Blue1 {
+    width: 100%;   
+    height: 140px;
+    background: rgb(2, 226, 226);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    overflow: auto;
+}
+.whyChUsBoxInner2Blue1h {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 10px
+}
+.whyChUsBoxInner2Blue1Parag {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.whyChUsBoxInner2White2 {
+    width: 100%;
+    height: 80px;
+    background: rgb(78, 78, 78);
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.whyChUsBoxInner2White2hLineH {
+    line-height: 80px;
+}
+#LtstProducts {
+    max-width: 100%;
+    height: 500px;
+    overflow: auto
+}
+.LtstProdctsfxCntr {
+    max-width: 1249px;
+    height: 440px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.LtstProductsH2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110)
+}
+.LtstProductsP {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color: rgb(153, 153, 153)
+}
+.LtstProductsInnerBox{
+    width: 100%;
+    height: 345px;
+}
+.LtstProductsInner1_2_3 {
+    width: 30%;
+    height: 345px;
+    margin-left: 28px; 
+    float:left;
+    font-family: 'Roboto', sans-serif;
+}
+.LtstProductsInner1_2_3 h3 {
+    margin: 10px;
+    color: gray;
+}
+.LtstProductsInner1_2_3 p {
+    margin-left: 10px;
+    color: rgb(172, 172, 172);
+}
+.LtstProductsInner1_img {
+    width: 100%;
+    height: 200px;
+    display: block;  
+}
+.workBox {
+    max-width: 100%;
+    height: 670px;
+    background: rgb(250, 250, 250);
+    overflow: auto;
+}
+.workBoxFixCenter {
+    max-width: 1149px;
+    height: 610px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif; 
+}
+.workBoxFixCenter h2 {
+    margin: 0 0 5px 50px;
+    color: gray;
+    
+}
+.workBoxFixCenter p {
+    margin: 0 0 20px 50px;
+    color: rgb(151, 151, 151);
+}
+.workBoxWithImgs {
+    max-width: 1049px;
+    height: 255px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.workBoxWithImgs img {
+    display: inline-block;
+}
+footer{
+    max-width: 100%;
+    height: 75px;
+    background: gray;
+    font-family: 'Roboto', sans-serif; 
+    color: white; 
+}
+footer span{
+    color: aqua
+}
+.footerH4_1 {
+    line-height: 75px;
+    float: left;
+    margin-left: 20px;
+}
+.footerH4_2 {
+    line-height: 75px;
+    float: right;
+    margin-right: 20px;
+}
